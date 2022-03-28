@@ -1,0 +1,60 @@
+/* Main Cards */
+
+.main-container a {
+    color: #212B36;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123%;
+}
+
+.card-container {
+    width: 1400px;
+    height: 570px;
+
+    margin-top: 103px;
+    margin-left: 70px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 22px;
+    row-gap: 23px;
+
+    margin-top: 54px;
+}
+
+.card-box {
+    width: 451px;
+    height: 233px;
+    display: flex;
+
+    background-color: white;
+    border-radius: 60px;
+
+    transition: background-color 0.7s;
+}
+
+.card-box span {
+    margin-top: 58px;
+    margin-left: 41px;
+    justify-content: start;
+    text-align: start;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 24px;
+}
+
+.card-box img {
+    width: 80px;
+    height: 80px;
+
+    margin-left: 110px;
+    margin-top: 85px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}

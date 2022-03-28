@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blank-style.css">
+    <link rel="stylesheet" href="css/cabinet-heal-style.css">
+    <title>Лечение</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="body-container">
+    <div class="container">
+        <header class="header-index">
+            <div class="logo-container"><img src="img/main-logo.png" alt="Логотип Медека" width="261px" height="66px">
+            </div>
+            <div class="header-container"><button type="button" class="main-btn" id="reception-btn">Запись на
+                    приём</button><button type="button" class="main-btn" id="payment-btn">Оплата</button><img
+                    class="avatar" src="img/avatar.jpg" alt="Аватар пользователя" width="52px" height="52px"><span
+                    class="username">Татьяна Иванова</span><a href="#" class="exit-href"><img class="exit-logo"
+                        src="img/exit-logo.png" alt="Выход" width="18.71px" height="26px"></a><a href="#"
+                    class="exit-href"><span class="exit">Выход</span></a></div>
+        </header>
+        <!--header-->
+
+        <main class="main-container">
+            <nav class="nav-container">
+                <ul class="nav-logo">
+                    <li class="nav-item-logo"><a href="#"><img src="img/home.png" width="26px" height="26px" alt=""></a>
+                    </li>
+                    <li class="nav-item-logo"><a href="#"><img src="img/profile.png" width="26px" height="26px"
+                                alt=""></a></li>
+                    <li class="nav-item-logo"><a href="#"><img src="img/reception.png" width="26px" height="26px"
+                                alt=""></a></li>
+                    <li class="nav-item-logo"><a href="#"><img src="img/healing.png" width="26px" height="26px"
+                                alt=""></a></li>
+                    <li class="nav-item-logo"><a href="#"><img src="img/payment.png" width="26px" height="26px"
+                                alt=""></a></li>
+                    <li class="nav-item-logo"><a href="#"><img src="img/services.png" width="26px" height="26px"
+                                alt=""></a></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="">Главная</a></li>
+                    <li class="nav-item"><a href="">Профиль</a></li>
+                    <li class="nav-item"><a href="">Запись на приём</a></li>
+                    <li class="nav-item"><a href="">Лечение</a></li>
+                    <li class="nav-item"><a href="">Оплата</a></li>
+                    <li class="nav-item"><a href="">Услуги</a></li>
+                </ul>
+            </nav>
+            <div class="card-container">
+                <h2 class="headings">Подбор лечения</h2>
+                <ol class="service-list">
+                    <li class="service-item-1">
+                        <h3 class="item-header">Выберите услугу</h3>
+                        <ul class="choose-items">
+                            <li><span>Лечение зубов</span></li>
+                            <li><span>Имплантация</span></li>
+                            <li><span>Удаление зубов</span></li>
+                            <li><span>Виниры и реставрация</span></li>
+                            <li><span>Протезирование</span></li>
+                            <li><span>Брекеты и исправление прикуса</span></li>
+                            <li><span>Отбеливание</span></li>
+                            <li><span>Детская стоматология</span></li>
+                        </ul>
+                    </li>
+                    <li class="service-item-2">
+                        <h3 class="item-header">Количество зубов</h3>
+                        <ul class="choose-items">
+                            <li><span>1</span></li>
+                            <li><span>2</span></li>
+                            <li><span>3</span></li>
+                            <li><span>4</span></li>
+                            <li><span>5</span></li>
+                            <li><span>6</span></li>
+                            <li><span>7</span></li>
+                            <li><span>8</span></li>
+                            <li><span>9 и более</span></li>
+                        </ul>
+                    </li>
+                    <li class="service-item-3">
+                        <h3 class="item-header">Какая у Вас ситуация с зубами?</h3>
+                        <ul class="choose-items">
+                            <li><span>Острая боль</span></li>
+                            <li><span>Давно не был,
+                                    хочу проверить</span></li>
+                            <li><span>Не болит,
+                                    но вижу темное пятно на зубе</span></li>
+                            <li><span>Появился неприятный запах изо рта</span></li>
+                            <li><span>Реакция на холодное/горячее</span></li>
+                            <li><span>Нужно лечение перед брекетами</span></li>
+                            <li><span>Замена старых промб</span></li>
+                            <li><span>Другое</span></li>
+                        </ul>
+                    </li>
+                    <li class="service-item-4">
+                        <h3 class="item-header">Какие дополнительные опции и услуги вам нужны?</h3>
+                        <ul class="choose-items">
+                            <li><span>Лечение кариеса</span></li>
+                            <li><span>Лечение десен</span></li>
+                            <li><span>Имплантация / протезирование</span></li>
+                            <li><span>Отбеливание</span></li>
+                            <li><span>Гигиеническая чистка</span></li>
+                            <li><span>Брекеты / Элайнеры</span></li>
+                            <li><span>Удаление</span></li>
+                            <li><span>Рассрочка</span></li>
+                            <li><span>Коррекция формы и цвета</span></li>
+                        </ul>
+                    </li>
+                    <li class="service-item-5">
+                        <h3 class="item-header">Когда планируете начать лечение?</h3>
+                        <ul class="choose-items">
+                            <li><span>Как можно быстрее</span></li>
+                            <li><span>В ближайшие 2 недели</span></li>
+                            <li><span>В ближайшие месяцы</span></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ol>
+                <!-- service-list -->
+                <h2 class="headings">Мы подобрали для вас лечение</h2>
+                <div class="treatment-container">
+                    <div class="treatment-header">
+                        <span class="header-id">id</span>
+                        <span class="header-name">Наименование</span>
+                        <span class="header-time">Время,мин</span>
+                        <span class="header-price">Стоимость, руб.</span>
+                    </div>
+                    <div class="treatment-main">
+                        <div><span class="treatment-id">1</span>
+                            <span class="treatment-name">Консультация врача</span>
+                            <span class="treatment-info"><img src="img/info.png" alt="info"></span>
+                            <span class="treatment-time">20 мин</span>
+                            <span class="treatment-price">750 руб.</span>
+                            <span class="treatment-basket"><img src="img/basket.png" alt="delete"></span>
+                        </div>
+                        <div>
+                            <span class="treatment-id">2</span>
+                            <span class="treatment-name">Лечение кариеса</span>
+                            <span class="treatment-info"><img src="img/info.png" alt="info"></span>
+                            <span class="treatment-time">45 мин</span><span class="treatment-price">1500 руб.</span>
+                            <span class="treatment-basket"><img src="img/basket.png" alt="delete">
+                            </span>
+                        </div>
+                        <div><span class="treatment-id">3</span>
+                            <span class="treatment-name">Лечение десен</span>
+                            <span class="treatment-info"><img src="img/info.png" alt="info"></span>
+                            <span class="treatment-time">45 мин</span>
+                            <span class="treatment-price">1400 руб.</span>
+                            <span class="treatment-basket"><img src="img/basket.png" alt="delete"></span>
+                        </div>
+                        <div><span class="treatment-id">4</span>
+                            <span class="treatment-name">Гигиеническая чистка</span>
+                            <span class="treatment-info hidden">
+                                <span><img src="img/info.png" alt="info"></span>
+                                <span class="treatment-time">60мин</span>
+                                <span class="treatment-price">3400 руб.</span>
+                                <span class="treatment-basket"><img src="img/basket.png" alt="delete"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- treatment-container -->
+
+                <div class="reception-record">
+                    <!-- <form action="#" method="post" id="record"> -->
+                    <h2 class="headings" id="heading-record">Запрись на приём</h2>
+
+                    <div class="record-container">
+
+
+                        <div class="record-date">
+                            <span>Дата</span>
+                            <input type="date" value="дд.мм.гггг" class="record-date" />
+                        </div>
+
+                        <div class="record-time">
+                            <span>Время</span>
+                            <input type="time" value="10:00" />
+                        </div>
+
+                        <div class="record-comment">
+                            <span>Комментарий</span>
+                            <input type="textarea" />
+                        </div>
+
+                        <div class="record-file">
+                            <span>Приложить файл:</span>
+                            <input type="file" name="f">
+                        </div>
+                        <!-- </form> -->
+                    </div>
+                    <div class="agreement">
+                        <span><input type="checkbox" id="agree" name="agree">Даю добровольное согласие на все виды
+                            услуг</span>
+                        <button type="submit" form="record">Записаться на приём</button>
+                    </div>
+
+                </div>
+                <!--reception-record -->
+        </main>
+        <!--main-container -->
+    </div>
+    <footer class="footer-container">
+        <div class="footer-content"><span>© МедекаДенталГрупп, 2021</span><img src="img/sitexpert.png"
+                alt="Footer Logo"></div>
+    </footer>
+    <!-- footer-container -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

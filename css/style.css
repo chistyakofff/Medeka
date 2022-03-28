@@ -1,0 +1,87 @@
+body {
+    height: 1200px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../img/main-background.png) no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-content {
+    position: absolute;
+    top: 462px;
+    left: 807px;
+    right: 859px;
+    bottom: 520px;
+    width: 355px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 26px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+span {
+    text-align: center;
+}
+
+.main-form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 13px;
+}
+
+.background-logo {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-logo {
+    position: absolute;
+    margin: 118px 114.46px 1012px 1530px;
+    padding: 0%;
+}
+
+#main-auto {
+    font-weight: bold;
+    font-size: 28pt;
+
+}
+
+#phone {
+    font-weight: medium;
+    font-size: 18pt;
+
+    border: 1px solid #D4DFEF;
+    border-radius: 5px;
+
+    color: #595959;
+
+}
+
+.main-btn {
+    width: 355px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 16pt;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 60px;
+
+    color: white;
+    background-color: #48A0F4;
+
+}
+
+#main-holder {
+    font-weight: regular;
+    font-size: 14pt;
+
+    color: #828282;
+}
